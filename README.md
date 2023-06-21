@@ -1,4 +1,4 @@
-# <center>Springboot + Vue Personal Website with Frontend-Backend Separation
+# <center>Springboot Personal Website Server
 
 <p align="center">
    <a target="_blank" href="#">
@@ -21,7 +21,7 @@
 [Chinese(中文)](README_CN.md)
 ## Project Features
 
-- The project is based on the personal blog of Feng Yu and Yu, and is further developed.
+- The project is based on the personal blog of Feng Yu, and is further developed.
 - The front-end design is inspired by "Butterfly" in "Hexo", which is beautiful, concise, and has a responsive user experience.
 - The back-end design is inspired by "element-admin" with a sidebar, historical tags, and automatically generated breadcrumbs.
 - Markdown editor for easy writing.
@@ -42,9 +42,7 @@
 
 ## Project Introduction
 
-The frontend project is located in the "blog-vue" folder, with "blog" for the frontend and "admin" for the backend.
-
-The backend project is located in the "blog-springboot" folder.
+This is the Server of the whole project 
 
 The SQL file is located in the root directory as "blog-mysql8.sql" and requires MySQL 8 or above.
 
@@ -77,8 +75,6 @@ blog-springboot
 
 ## Technologies
 
-**Frontend:** Vue + Vuex + Vue Router + Axios + Vuetify + Element + ECharts
-
 **Backend:** SpringBoot + Nginx + Docker + Spring Security + Swagger2 + MyBatis Plus + MySQL + Redis + Elasticsearch + RabbitMQ + MaxWell + Websocket
 
 **Others:** Integration of QQ, Weibo third-party login, integration of Tencent Cloud human-machine verification, websocket
@@ -94,7 +90,6 @@ blog-springboot
 |Development Tools|Description|
 |-|-|
 |IDEA|Java development IDE|
-|VSCode|Vue development IDE|
 |Navicat|MySQL remote connection tool|
 |Another Redis Desktop Manager|Redis remote connection tool|
 |X-shell|Linux remote connection tool|
@@ -117,15 +112,7 @@ blog-springboot
 ![](https://cdn.jsdelivr.net/gh/Wayne-HJ/pictures@main/img/202306111700664.png)
 
 ## Getting Started
-
-Frontend Project
-```
-cd blog-vue/blog
-npm install
-npm run serve
-```
-
 Backend Project
-Make sure that Redis and MySQL components are running, and relevant configurations have been modified in the application.yml file. Simply run the project.
+Make sure that Redis and MySQL components are running, and relevant configurations have been modified in the application.yml file. Simply run the BlogApplication class.
 
 Please let me know if you need any further assistance!

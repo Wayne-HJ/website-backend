@@ -1,4 +1,4 @@
-# <center>Springboot + Vue 前后端分离个人网站
+# <center>个人网站 springboot 服务端
 
 
 <p align="center">
@@ -43,9 +43,7 @@
 
 ## 项目介绍
 
-前端项目位于blog-vue下，blog为前台，admin为后台。
-
-后端项目位于blog-springboot下。
+本项目为个人网站和管理后台的服务端
 
 SQL文件位于根目录下的blog-mysql8.sql，需要MYSQL8以上版本。
 
@@ -78,8 +76,6 @@ blog-springboot
 
 ## 技术介绍
 
-**前端：** vue + vuex + vue-router + axios + vuetify + element + echarts
-
 **后端：** SpringBoot + nginx + docker + SpringSecurity + Swagger2 + MyBatisPlus + Mysql + Redis + elasticsearch + RabbitMQ + MaxWell + Websocket
 
 **其他：** 接入QQ，微博第三方登录，接入腾讯云人机验证、websocket
@@ -95,7 +91,6 @@ blog-springboot
 |开发工具|说明|
 |-|-|
 |IDEA|Java开发工具IDE|
-|VSCode|Vue开发工具IDE|
 |Navicat|MySQL远程连接工具|
 |Another Redis Desktop Manager|Redis远程连接工具|
 |X-shell|Linux远程连接工具|
@@ -118,15 +113,9 @@ blog-springboot
 ![](https://cdn.jsdelivr.net/gh/Wayne-HJ/pictures@main/img/20230518211154.png)
 
 ## 快速开始
-前端项目
-```
-cd blog-vue/blog
-npm install
-npm run serve
-```
 后台项目
 确保组件redis,mysql已启动，相关配置以在application.yml中已修改
-直接运行即可
+直接运行BlogApplication即可
 
 
 

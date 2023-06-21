@@ -6,10 +6,10 @@
 -->
 <application generated-by="intellij" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.zeroturnaround.com" xsi:schemaLocation="http://www.zeroturnaround.com http://update.zeroturnaround.com/jrebel/rebel-2_3.xsd">
 
-	<id>blog-springboot</id>
+	<id>website-backend</id>
 
 	<classpath>
-		<dir name="/Users/macbookpro/work_space/java_project/SideProject/blog-springboot/target/classes">
+		<dir name="/Users/macbookpro/work_space/java_project/website-backend/target/classes">
 		</dir>
 	</classpath>
 
